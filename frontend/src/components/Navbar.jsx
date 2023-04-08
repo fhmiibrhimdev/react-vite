@@ -5,11 +5,11 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
     return (
-        <div className="bg-blue-600 py-2">
+        <div className="tw-bg-blue-600 tw-py-2">
             <Case>
-                <div className="flex items-center">
+                <div className="tw-flex tw-items-center">
                     <Link
-                        className="mr-2 text-sm font-semibold uppercase text-white"
+                        className="tw-mr-2 tw-text-sm tw-font-semibold tw-uppercase tw-text-white"
                         to="/"
                     >
                         React Starter
